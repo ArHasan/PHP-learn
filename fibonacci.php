@@ -1,4 +1,5 @@
 <?php
+//Aman_code
 $n = 10;
 $firstNum= 0;
 $secondNum = 1;
