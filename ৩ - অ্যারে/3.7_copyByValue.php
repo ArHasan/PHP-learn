@@ -3,6 +3,7 @@
 //deep copy 
 //copy by referance ----&
 //shallow copy
+
 $person = array('fname'=>'Hello','lname'=>'world');
 $newperson = &$person;
 $newperson['lname']='Pluto';

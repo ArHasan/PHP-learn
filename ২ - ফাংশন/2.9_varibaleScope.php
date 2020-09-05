@@ -19,7 +19,7 @@ localScope();
 echo PHP_EOL;
 
 function staticScoope(){
-    // Static $i;
+    Static $i;
     $i = $i ?? 0;
     $i++;
     echo $i;
