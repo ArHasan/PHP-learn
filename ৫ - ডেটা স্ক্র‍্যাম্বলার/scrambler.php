@@ -1,20 +1,32 @@
-<?php 
+<?php
 include_once "scramblerf.php";
-$modtaske='encode';
-if(isset($_GET['task']) && $_GET['task']!=''){
+$modtaske = 'encode';
+if (isset($_GET['task']) && $_GET['task'] != '') {
     $task = $_GET['task'];
 }
-$key ='abcdefghijklmnopqrstuvwzyz1234567890'; 
 
-if('key'==$task){
-    $key_original = str_split($key);
-    shuffle($key_original); 
-    $key = join('',$key_original);
+$originalKey = 'abcdefghijklmnopqrstuvwzyz1234567890';
+$key = 'abcdefghijklmnopqrstuvwzyz1234567890';
+if ('key' == $task) {
+    $originalKey = str_split($key);
+    shuffle($originalKey);
+    $key = join('', $originalKey);
+} elseif (isset($_POST['key']) && $_POST['key']!= '') {
+    $key = $_POST['key'];
+}
+
+$scrambledData = '';
+if('encode' == $task){
+    $data = $_POST['data']??'';
+    if($data !=''){
+        $scrambledData = scrambleData($data,$key);
+    }
 }
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Scrambal Project</title>
@@ -39,47 +51,53 @@ if('key'==$task){
         .hidden {
             display: none;
         }
-        .design a{
-            color:#00a8ff;
-            font-size:20px;
-            font-weight:bold;
+
+        .design a {
+            color: #00a8ff;
+            font-size: 20px;
+            font-weight: bold;
         }
-        .design a:hover{
-            color:#fbc531;
-            
+
+        .design a:hover {
+            color: #fbc531;
+
         }
     </style>
 </head>
+
 <body>
-<div class="container">
-    <div class="row">
-        <div class="column column-60 column-offset-20">
-       
-            <h2>Data Scrambler</h2>
-            <p>Use this application to scramble your data</p>
-      
-            <p class="design" >
-                <a href="/scrambler.php?task=encode">Encode</a> |
-                <a href="/scrambler.php?task=decode">Decode</a> |
-                <a href="/scrambler.php?task=key">Generate Key</a>
+    <div class="container">
+        <div class="row">
+            <div class="column column-60 column-offset-20">
 
-            </p>
+                <h2>Data Scrambler</h2>
+                <p>Use this application to scramble your data</p>
+
+                <p class="design">
+                    <a href="/scrambler.php?task=encode">Encode</a> |
+                    <a href="/scrambler.php?task=decode">Decode</a> |
+                    <a href="/scrambler.php?task=key">Generate Key</a>
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column column-60 column-offset-20">
+                <form method="POST" action="scrambler.php">
+                    <label for="key">Key </label>
+                    <input type="text" name="key" id="key" <?php displayKey($key);?>>
+
+                    <label for="data">Data</label>
+                    <textarea name="data" id="data"><?php if(isset($_POST['data'])){ echo $_POST['data'];}?></textarea>
+
+                    <label for="result">Result</label>
+                    <textarea id="result"><?php echo $scrambledData;?></textarea>
+
+                    <button type='submit'>Do It For Me</button>
+                </form>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="column column-60 column-offset-20">
-            <form method="POST" >
-                <label for="key">Key </label>
-                <input type="text" name="key" id="key" <?php  displayKey($key);?> >
-                <label for="data">Data</label>
-                <textarea name="data" id="data"></textarea>
-                <label for="result">Result</label>
-                <textarea id="result"></textarea>
-
-                <button type='submit'>Do It For Me</button>
-            </form>
-        </div>
-    </div>
-</div>
 </body>
+
 </html>
