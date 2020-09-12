@@ -28,10 +28,6 @@ echo PHP_EOL;
 $parts5 = preg_split("/ |,/",$string);
 print_r($parts5);
 
-
-
-
-
  //my own code
 //$count =str_word_count($string);
 //for ($i=0; $i<$count; $i++){

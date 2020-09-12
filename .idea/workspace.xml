@@ -20,14 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c97ad7df-6da3-4002-baca-ddeb13422a1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.2_ASCII.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.3_charAccessInString.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.4_stringReverce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.5_piecesOFstring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.10_newLineCharcterHtmlPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.11_scanfFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.5_Assignment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.6_stringFindInString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.7_stringInsideSearchReplece.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.8_stringTriming.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.9_wordRape.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/৬ - স্ট্রিং/6.1_string.php" beforeDir="false" afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.1_string.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/৬ - স্ট্রিং/time.php" beforeDir="false" afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/৬ - স্ট্রিং/6.5_piecesOFstring.php" beforeDir="false" afterPath="$PROJECT_DIR$/৬ - স্ট্রিং/6.5_piecesOFstring.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,32 +55,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="PHP Script.6.5_piecesOFstring.php">
-    <configuration name="6.1_string.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.1_string.php">
+  <component name="RunManager" selected="PHP Script.6.11_scanfFunction.php">
+    <configuration name="6.10_newLineCharcterHtmlPage.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.10_newLineCharcterHtmlPage.php">
       <method v="2" />
     </configuration>
-    <configuration name="6.2_ASCII.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.2_ASCII.php">
+    <configuration name="6.11_scanfFunction.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.11_scanfFunction.php">
       <method v="2" />
     </configuration>
-    <configuration name="6.3_charAccessInString.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.3_charAccessInString.php">
+    <configuration name="6.7_stringInsideSearchReplece.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.7_stringInsideSearchReplece.php">
       <method v="2" />
     </configuration>
-    <configuration name="6.4_stringReverce.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.4_stringReverce.php">
+    <configuration name="6.8_stringTriming.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.8_stringTriming.php">
       <method v="2" />
     </configuration>
-    <configuration name="6.5_piecesOFstring.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.5_piecesOFstring.php">
+    <configuration name="6.9_wordRape.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/৬ - স্ট্রিং/6.9_wordRape.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.6.5_piecesOFstring.php" />
-        <item itemvalue="PHP Script.6.4_stringReverce.php" />
-        <item itemvalue="PHP Script.6.3_charAccessInString.php" />
-        <item itemvalue="PHP Script.6.2_ASCII.php" />
-        <item itemvalue="PHP Script.6.1_string.php" />
+        <item itemvalue="PHP Script.6.11_scanfFunction.php" />
+        <item itemvalue="PHP Script.6.10_newLineCharcterHtmlPage.php" />
+        <item itemvalue="PHP Script.6.9_wordRape.php" />
+        <item itemvalue="PHP Script.6.8_stringTriming.php" />
+        <item itemvalue="PHP Script.6.7_stringInsideSearchReplece.php" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599812998870</updated>
-      <workItem from="1599813000568" duration="21323000" />
+      <workItem from="1599813000568" duration="34193000" />
+      <workItem from="1599914913041" duration="4357000" />
     </task>
     <servers />
   </component>
@@ -108,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="27" width="703" height="695" key="#PHP" timestamp="1599815284742">
@@ -118,64 +121,53 @@
       <screen x="0" y="27" width="1366" height="695" />
     </state>
     <state x="282" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.695@0.27.1366.695" timestamp="1599832098202" />
-    <state width="403" height="506" key="GridCell.Tab.0.bottom" timestamp="1599844339078">
+    <state width="359" height="352" key="GridCell.Tab.0.bottom" timestamp="1599920680553">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="403" height="506" key="GridCell.Tab.0.bottom/0.27.1366.695@0.27.1366.695" timestamp="1599844339078" />
+    <state width="359" height="352" key="GridCell.Tab.0.bottom/0.27.1366.695@0.27.1366.695" timestamp="1599920680553" />
     <state width="403" height="309" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1599833391926" />
-    <state width="403" height="506" key="GridCell.Tab.0.center" timestamp="1599844339077">
+    <state width="359" height="352" key="GridCell.Tab.0.center" timestamp="1599920680553">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="403" height="506" key="GridCell.Tab.0.center/0.27.1366.695@0.27.1366.695" timestamp="1599844339077" />
+    <state width="359" height="352" key="GridCell.Tab.0.center/0.27.1366.695@0.27.1366.695" timestamp="1599920680553" />
     <state width="403" height="309" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1599833391925" />
-    <state width="403" height="506" key="GridCell.Tab.0.left" timestamp="1599844339076">
+    <state width="359" height="352" key="GridCell.Tab.0.left" timestamp="1599920680553">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="403" height="506" key="GridCell.Tab.0.left/0.27.1366.695@0.27.1366.695" timestamp="1599844339076" />
+    <state width="359" height="352" key="GridCell.Tab.0.left/0.27.1366.695@0.27.1366.695" timestamp="1599920680553" />
     <state width="403" height="309" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1599833391924" />
-    <state width="403" height="506" key="GridCell.Tab.0.right" timestamp="1599844339077">
+    <state width="359" height="352" key="GridCell.Tab.0.right" timestamp="1599920680553">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="403" height="506" key="GridCell.Tab.0.right/0.27.1366.695@0.27.1366.695" timestamp="1599844339077" />
+    <state width="359" height="352" key="GridCell.Tab.0.right/0.27.1366.695@0.27.1366.695" timestamp="1599920680553" />
     <state width="403" height="309" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1599833391925" />
-    <state width="1320" height="182" key="GridCell.Tab.1.bottom" timestamp="1599837997641">
+    <state width="1320" height="182" key="GridCell.Tab.1.bottom" timestamp="1599860973637">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="1320" height="182" key="GridCell.Tab.1.bottom/0.27.1366.695@0.27.1366.695" timestamp="1599837997641" />
+    <state width="1320" height="182" key="GridCell.Tab.1.bottom/0.27.1366.695@0.27.1366.695" timestamp="1599860973637" />
     <state width="1310" height="105" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1599832903141" />
-    <state width="1320" height="182" key="GridCell.Tab.1.center" timestamp="1599837997640">
+    <state width="1320" height="182" key="GridCell.Tab.1.center" timestamp="1599860973636">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="1320" height="182" key="GridCell.Tab.1.center/0.27.1366.695@0.27.1366.695" timestamp="1599837997640" />
+    <state width="1320" height="182" key="GridCell.Tab.1.center/0.27.1366.695@0.27.1366.695" timestamp="1599860973636" />
     <state width="1310" height="105" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1599832903140" />
-    <state width="1320" height="182" key="GridCell.Tab.1.left" timestamp="1599837997640">
+    <state width="1320" height="182" key="GridCell.Tab.1.left" timestamp="1599860973635">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="1320" height="182" key="GridCell.Tab.1.left/0.27.1366.695@0.27.1366.695" timestamp="1599837997640" />
+    <state width="1320" height="182" key="GridCell.Tab.1.left/0.27.1366.695@0.27.1366.695" timestamp="1599860973635" />
     <state width="1310" height="105" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1599832903139" />
-    <state width="1320" height="182" key="GridCell.Tab.1.right" timestamp="1599837997640">
+    <state width="1320" height="182" key="GridCell.Tab.1.right" timestamp="1599860973636">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state width="1320" height="182" key="GridCell.Tab.1.right/0.27.1366.695@0.27.1366.695" timestamp="1599837997640" />
+    <state width="1320" height="182" key="GridCell.Tab.1.right/0.27.1366.695@0.27.1366.695" timestamp="1599860973636" />
     <state width="1310" height="105" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1599832903140" />
-    <state x="172" y="27" width="1012" height="695" key="SettingsEditor" timestamp="1599840252952">
+    <state x="172" y="27" width="1012" height="695" key="SettingsEditor" timestamp="1599854082478">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state x="172" y="27" width="1012" height="695" key="SettingsEditor/0.27.1366.695@0.27.1366.695" timestamp="1599840252952" />
-    <state x="346" y="43" width="672" height="678" key="search.everywhere.popup" timestamp="1599820166793">
+    <state x="172" y="27" width="1012" height="695" key="SettingsEditor/0.27.1366.695@0.27.1366.695" timestamp="1599854082478" />
+    <state x="346" y="43" width="672" height="678" key="search.everywhere.popup" timestamp="1599854889637">
       <screen x="0" y="27" width="1366" height="695" />
     </state>
-    <state x="346" y="43" width="672" height="678" key="search.everywhere.popup/0.27.1366.695@0.27.1366.695" timestamp="1599820166793" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/৬ - স্ট্রিং/6.5_piecesOFstring.php</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="346" y="43" width="672" height="678" key="search.everywhere.popup/0.27.1366.695@0.27.1366.695" timestamp="1599854889637" />
   </component>
 </project>
