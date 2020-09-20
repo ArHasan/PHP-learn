@@ -1,0 +1,1 @@
+var data =[{"fname":"Hasan","age":"23","class":14,"roll":11},{"fname":"Aman","age":"21","class":12,"roll":3},{"fname":"Rohim","age":5,"class":15,"roll":19},{"fname":"Nahid","age":20,"class":12,"roll":34}]

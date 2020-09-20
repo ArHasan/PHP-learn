@@ -11,7 +11,6 @@ for($i=1; $i<=10; $i++){
     $veryold = $old;    
 }
 
-
 /*
 inital 
 v = 0

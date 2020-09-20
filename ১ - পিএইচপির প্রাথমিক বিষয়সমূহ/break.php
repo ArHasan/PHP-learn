@@ -10,9 +10,8 @@ for($i=1; $i<=50; $i++){
     //     echo PHP_EOL;
     // break;}
 
-        if($i<45){
-            goto a;
-        
+    if($i<45){
+       goto a;      
         }
         echo "$i\n";
         a: 'y';
