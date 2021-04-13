@@ -29,3 +29,26 @@ function staticScoope(){
 staticScoope();
 staticScoope();
 staticScoope();
+
+function doSomethingg(){
+    static $i; //static scope
+    $i = $i ?? 0;
+    $i++;
+    echo $i;
+    echo "\n";
+}
+echo "---------\n";
+function doExtra(){
+    static $i;
+    $i = $i ?? 0;
+    $i++;
+    echo $i;
+    echo "\n";
+}
+
+doSomethingg();
+doSomethingg();
+doSomethingg();
+doExtra();
+doExtra();
+doExtra();

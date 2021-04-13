@@ -1,6 +1,6 @@
 <?php 
 
-$name = 0;
+$name = 1;
 
 if(isset($name)){
     echo "Name is set";

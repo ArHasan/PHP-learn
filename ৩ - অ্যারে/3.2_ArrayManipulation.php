@@ -10,6 +10,8 @@ $students = [
 
 // var_dump($n);
 
+# -> array is mutabel
+
 $students[4]='nahid';//array add
 $student = array_unshift($students,"salma");
 echo "\n".$student."\n------\n";
@@ -30,8 +32,9 @@ for($i=($n-1);$i>=0;$i--){
 echo "------";
 $student = count($students);
 echo "\n".$student."\n------\n";
-
-// array_shift(); //fast data out
-// array_unshift();// faste add data
-// array_pop(); //last out
-// array_push();//last add data
+/*
+ array_shift(); //fast data out
+ array_unshift();// faste add data
+ array_pop(); //last out
+ array_push();//last add data
+*/

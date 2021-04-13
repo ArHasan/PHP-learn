@@ -19,8 +19,8 @@ function odd($n){
 }
 
 // $newArray = array_map('cube',$number);
-$evenNumbers = array_filter($number,'even'); //collback function
-$oddNumbers = array_filter($number,'odd'); //collback function
+$evenNumbers = array_filter($number,'even'); //callback function
+$oddNumbers = array_filter($number,'odd'); //callback function
 
 print_r($number);
 print_r($evenNumbers);
@@ -28,7 +28,7 @@ print_r($oddNumbers);
 
 $person = array('Hasan','Aman','Nahid','Hasin','Hoydor','Helel','Fahim');
 function filterByS($name){
-    return $name[0]=='H';
+    return $name[0]=='A';
 }
 $newPersons = array_filter($person,'filterByS');
 print_r($newPersons);

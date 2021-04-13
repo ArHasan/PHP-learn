@@ -1,7 +1,7 @@
 <?php
 $string = "Hello Hasan , How are you";
 $parts = str_split($string);
-//print_r($parts);
+// print_r($parts);
 $count =  count($parts);
 for ($i =65; $i<=122; $i++ ){
     $w_count = 0;

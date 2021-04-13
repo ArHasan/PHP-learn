@@ -5,14 +5,14 @@ $info = '';
 $task = $_GET['task'] ?? 'report';
 $error = $_GET['error'] ?? '0';
 
-if ('edit'==$task){
-    if (!hasPrivilege()){
+if ('edit' == $task) {
+    if (!hasPrivilege()) {
         header('location: /crud/index.php?task=report');
     }
 }
 
 if ('delete' == $task) {
-    if (!isAdmin()){
+    if (!isAdmin()) {
         header('location: /crud/index.php?task=report');
         return;
     }
@@ -23,7 +23,7 @@ if ('delete' == $task) {
     }
 }
 if ('seed' == $task) {
-    if (!isAdmin()){
+    if (!isAdmin()) {
         header('location: /crud/index.php?task=report');
         return;
     }
@@ -85,14 +85,14 @@ if (isset($_POST['submit'])) {
 <div class="container">
     <div class="mx-auto text-center">
         <h1>CRUD Project -2</h1>
-        <?php include_once 'templates/nav.php' ?>
+        <?php include_once 'templates/nav.php'?>
     </div>
     <div class="row">
         <?php
-        if ($info != '') {
-            echo "<p>{$info}</p>";
-        }
-        ?>
+if ($info != '') {
+    echo "<p>{$info}</p>";
+}
+?>
     </div>
 
     <?php if ('1' == $error): ?>
@@ -103,12 +103,12 @@ if (isset($_POST['submit'])) {
                 </blockquote>
             </div>
         </div>
-    <?php endif; ?>
+    <?php endif;?>
 
     <?php if ('report' == $task): ?>
         <div class="row">
             <div class="column column-60 column-offset-20">
-                <?php generateReport(); ?>
+                <?php generateReport();?>
                 <!-- <div>
                     <pre>
                       <?php //printRaw();?>
@@ -116,7 +116,7 @@ if (isset($_POST['submit'])) {
                 </div> -->
             </div>
         </div>
-    <?php endif; ?>
+    <?php endif;?>
 
     <?php if ('add' == $task): ?>
         <div class="row">
@@ -132,32 +132,32 @@ if (isset($_POST['submit'])) {
                 </form>
             </div>
         </div>
-    <?php endif; ?>
+    <?php endif;?>
 
     <?php if ('edit' == $task):
-        $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING);
-        $student = getStudent($id);
-        if ($student):
-            ?>
-            <div class="row">
-                <div class="column column-60 column-offset-20">
-                    <form method="POST">
-                        <input type="hidden" value="<?php echo $id ?>" name="id">
-                        <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname" value="<?php echo $student['fname']; ?>">
-                        <label for="lname">Last Name</label>
-                        <input type="text" name="lname" id="lname" value="<?php echo $student['lname']; ?>">
-                        <label for="roll">Roll</label>
-                        <input type="text" name="roll" id="roll" value="<?php echo $student['roll']; ?>">
-                        <button type="submit" class="button-primary" value="save" name="submit">update</button>
-                    </form>
-                </div>
-            </div>
-        <?php
-        endif;
-    endif;
-
+    $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING);
+    $student = getStudent($id);
+    if ($student):
     ?>
+	            <div class="row">
+	                <div class="column column-60 column-offset-20">
+	                    <form method="POST">
+	                        <input type="hidden" value="<?php echo $id ?>" name="id">
+	                        <label for="fname">First Name</label>
+	                        <input type="text" name="fname" id="fname" value="<?php echo $student['fname']; ?>">
+	                        <label for="lname">Last Name</label>
+	                        <input type="text" name="lname" id="lname" value="<?php echo $student['lname']; ?>">
+	                        <label for="roll">Roll</label>
+	                        <input type="text" name="roll" id="roll" value="<?php echo $student['roll']; ?>">
+	                        <button type="submit" class="button-primary" value="save" name="submit">update</button>
+	                    </form>
+	                </div>
+	            </div>
+	        <?php
+endif;
+endif;
+
+?>
 
 </div>
 <!-- Optional JavaScript -->

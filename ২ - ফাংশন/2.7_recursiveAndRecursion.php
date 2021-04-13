@@ -8,7 +8,7 @@ function printN($i){
     $i++;
     printN($i);
 }
-// printN(3);
+printN(1);
 
 //recursive function //recursion
 
@@ -23,4 +23,4 @@ function printNumber($counter,$end,$stepping=1){
     printNumber($counter,$end);
     
 }
-printNumber(10,30,2);
+// printNumber(10,30,2);

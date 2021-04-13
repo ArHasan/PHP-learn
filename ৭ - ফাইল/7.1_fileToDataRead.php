@@ -1,12 +1,10 @@
 <?php
-$filename = "/media/arhasan/Othres/PHP-learn/name.txt";
+$filename = "/media/arhasan/Othres/PHP-learn/wr.txt";
 // echo getcwd();
 
 if(is_readable($filename)){
-
-
     $fp = fopen($filename,'r');
-
+    
 // $line = fgets($fp);
 // echo $line;
 // $line = fgets($fp);
@@ -31,4 +29,4 @@ print_r($data);
 echo "\n";
 $data = file_get_contents($filename);
 echo $data;
-}
+} 

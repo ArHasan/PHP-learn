@@ -13,7 +13,7 @@ for($i = 0; $i<$n; $i++){
 }
 echo "\n";
 
-$m = count($food);
+echo $m = count($food);
 
 for($i=($m-1); $i>=0; $i--){
     echo $i."-" .$food[$i]."\n";

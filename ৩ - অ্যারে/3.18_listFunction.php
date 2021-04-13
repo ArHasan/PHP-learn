@@ -12,4 +12,4 @@ echo $green;
 $name=array('Hasan','aman','Nahid','Nowshin');
 list($h,$a,$nn,$n)=$name;
 echo $n;
-var_dump($nn);
+// var_dump($nn);
