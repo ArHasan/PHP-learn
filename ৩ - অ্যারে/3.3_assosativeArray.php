@@ -14,7 +14,9 @@ $foods=[
     'drinks'=>'water, milk, tea'
 ];
 
-print_r($foods['drinks'] .= ",orange juice");
+// print_r($foods['drinks'] .= ",orange juice");
+
+// print_r($foods['vegetables']); 
 
 // echo $foods['vegetables'];
 
@@ -32,10 +34,10 @@ $values = array_values($foods);
 // print_r($keys);
 // print_r($values);
 
-// for($i=0;$i<count($keys);$i++){
-//     $key = $keys[$i];
-//     echo $foods[$key]."\n";
-// }
+for($i=0;$i<count($keys);$i++){
+    $key = $keys[$i];
+    echo $foods[$key]."\n";
+}
 
 // for($i=0;$i<count($values);$i++){
 //     $value = $values[$i];

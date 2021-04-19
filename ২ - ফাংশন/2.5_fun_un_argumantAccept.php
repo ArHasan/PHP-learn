@@ -4,8 +4,9 @@ function sum(int ...$number):int{
     for($i=0;$i<count($number);$i++){
         $result +=$number[$i];
     }
-    // foreach($number as $num){
-    //     $result +=$num;
+    // foreach($number as $i=>$num){
+    //     $result +=$num[$i];
+
     // }
     return $result;
 }

@@ -21,3 +21,7 @@ function serve($foodType="coffee",$numberOrItems="1 cup"){ //optional perameter
     echo "{$numberOrItems} of {$foodType} has/have been served";
 
 }
+
+function sum($a,$b){
+    return $a + $b;
+}

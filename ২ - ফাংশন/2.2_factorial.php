@@ -5,3 +5,6 @@ include_once "function.php";
 $x = 5;
 echo "Factorial of {$x} is ".factorial($x);
 
+echo PHP_EOL;
+
+echo sum(555,0);

@@ -14,7 +14,7 @@ $commonf = array_intersect_assoc($fruits1,$fruits2);
 print_r($common);
 print_r($commonf);
 
-$diff = array_diff($number1, $number2);
+$diff = array_diff($number2, $number1);
 // $difff = array_diff($fruits1, $fruits2);
 $difff = array_diff_assoc($fruits2, $fruits1);
 print_r($diff);

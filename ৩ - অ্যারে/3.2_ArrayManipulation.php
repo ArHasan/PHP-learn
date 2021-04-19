@@ -22,7 +22,7 @@ echo "\n".$student."\n------\n";
 // }
 
 $students[]="jamal";
-array_push($students,"kamel");
+array_push($students,"kamel","Hasan");
 
 $n = count($students);
 for($i=($n-1);$i>=0;$i--){
