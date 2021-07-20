@@ -1,8 +1,9 @@
 <?php 
 
-for($i=20;$i<=30;$i++){
-    // echo "{$i} \n";
-    if($i>=26){
-        echo "{$i} \n";
-    }
+$num =21;
+
+if($num % 2 == 0){
+    echo "{$num} is even number";
+}else{
+    echo "{$num} is odd number";
 }
