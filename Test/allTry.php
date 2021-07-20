@@ -1,9 +1,5 @@
 <?php 
 
-$num =21;
+$num =24;
 
-if($num % 2 == 0){
-    echo "{$num} is even number";
-}else{
-    echo "{$num} is odd number";
-}
+echo ($num %2 ==0) ? 'even' : 'odd';
