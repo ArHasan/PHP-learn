@@ -55,5 +55,5 @@ print_r($oop->getDirectories());
 $oop = $directory->getDirectory(8);
 print_r($oop->getDirectories());
 
-$foundation = $oop->getDirectory(0);
+$foundation = $oop->getDirectory(3);
 print_r($foundation->getDirectories());

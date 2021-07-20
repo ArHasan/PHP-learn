@@ -6,7 +6,7 @@
 // echo PHP_EOL;
 // echo microtime(true);
 
-/*
+
 $startTime = microtime(true);
 factorial(10);
 sleep(1);
@@ -20,6 +20,6 @@ function factorial($n){
         $result *=$i;
     }
     return $result;
-}*/
+}
 
 

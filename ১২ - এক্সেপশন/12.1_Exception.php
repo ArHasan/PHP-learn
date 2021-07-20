@@ -12,7 +12,7 @@ class Student{
 }
 
 try{
-    $s = new Student('Rahim',6);
+     $s = new Student('Rahim',6);
     echo "it will never display";
 }catch(Exception $e){
     echo $e->getCode().":".$e->getMessage();
