@@ -8,7 +8,7 @@ for($i=1;$i<=$fact;$i++){
     echo "\n";
 }
 
-$n=3;
+$n=4;
 for($i=$n, $factorial=1; $i>1; $i--){
     // $factorial = $factorial * $i;
     $factorial *=$i;

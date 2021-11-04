@@ -32,3 +32,7 @@ echo $h2->name;
 
 $h1->sayName();
 $h2->sayName();
+
+$cat = new Cat();
+
+$cat::SayHi();

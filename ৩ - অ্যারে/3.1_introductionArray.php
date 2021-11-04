@@ -3,14 +3,19 @@
 $name = ['Hasan','Aman','Nahid','Nowshin'];
 $food = array('mango','bannan','stobery','pinapel');
 
+foreach($food as $key=>$item){
+    echo "$key - ".$item;
+    echo PHP_EOL;
+}
+// ---------------------------
 // var_dump($name);
 // echo count($name);
 
-$n = count($name);
+// $n = count($name);
 
-for($i = 0; $i<$n; $i++){
-    echo $i."-".$name[$i]."\n";
-}
+// for($i = 0; $i<$n; $i++){
+//     echo $i."-".$name[$i]."\n";
+// }
 // echo "\n";
 
 // echo $m = count($food);
