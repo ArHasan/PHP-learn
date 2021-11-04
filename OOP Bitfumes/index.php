@@ -1,13 +1,19 @@
 <?php
 class Student {
 
-  public  $name = 'ArHasan';
-  public $attendence = true;
-  public $totalMarks = 89;
+  public $name;
+  public $attendence;
+  public $totalMarks;
+
+  public function StudentDetails($a, $b, $c) {
+    echo  $this->name = $a;
+    echo  $this->attendence = $b;
+    echo  $this->totalMarks = $c;
+
+  }
 
 }
 
-$student = new Student();
-echo $student->name."<br>";
+$class10 = new Student();
+$class10->StudentDetails('Hasan',true,93);
 
-echo $student->totalMarks =99;
