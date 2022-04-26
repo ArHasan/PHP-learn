@@ -1,7 +1,7 @@
 <?php
 
 $cat = 'cat-12,cat-13,subcat-14,cat-15';
-$test ='sasd fsd#%'
+$test ='sasd fsd#%';
 print_r($cat);
 echo PHP_EOL;
 $t = (preg_split('/(#%|,)/', $test));
