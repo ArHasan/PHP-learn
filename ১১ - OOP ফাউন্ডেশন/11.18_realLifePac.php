@@ -28,3 +28,4 @@ $districts->add('Chittagong');
 foreach($districts as $district){
     echo $district."\n";
 }
+print_r($districts);

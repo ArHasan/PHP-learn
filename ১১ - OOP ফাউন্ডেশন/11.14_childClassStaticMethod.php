@@ -12,5 +12,9 @@ class B extends A{
         parent::sayHi();
     }
 }
-B::sayHi();
+// B::sayHi();
 // A::sayHi();
+
+// $obj = new B();
+
+B::sayHi();

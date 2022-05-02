@@ -8,8 +8,8 @@ abstract class OurClass{
 }
 
 class MyClass extends OurClass{
-    function eat($b){
-        echo "I am eating\n";
+    function eat($b){       
+        echo "I am eating $b\n";
     }
 }
 $mc = new MyClass();

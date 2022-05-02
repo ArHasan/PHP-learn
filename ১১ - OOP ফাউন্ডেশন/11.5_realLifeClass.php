@@ -61,3 +61,4 @@ class RGB
 $myColor = new RGB("#00ff40");
 $myColor->readRGBColor();
 // echo $myColor->getBlue();
+$myColor->getColor();

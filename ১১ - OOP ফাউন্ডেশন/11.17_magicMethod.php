@@ -42,7 +42,7 @@ class Student{
     // }
 }
 
-$R = new Student('Hasan','12','14');
+$R = new Student('Hasan',' 12 ','14');
 // $R = new Student();
 // $R->setName('Hasan');
 

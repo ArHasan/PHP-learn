@@ -1,14 +1,40 @@
 <?php
 
-$cat = 'cat-12,cat-13,subcat-14,cat-15';
-$test ='sasd fsd#%';
-print_r($cat);
-echo PHP_EOL;
-$t = (preg_split('/(#%|,)/', $test));
+interface baseStudent {
+    function displayName();
+}
 
-print_r($t);
+class Student implements baseStudent {
 
-echo $t[1];
-print_r(join(' ',$t));
+    private $name;
+    function __construct($n) {
+        $this->name = $n;
+    }
 
-// print_r(serialize($t));
+    function displayName() {
+        echo "Hello " . $this->name;
+    }
+}
+
+// class StudentManage{
+
+//     function infoStd($name){
+//         $st = new Student($name);
+//         $st->displayName();
+//     }
+// }
+
+class StudentManage {
+
+    function infoStd(Student $student) {
+        print_r($student);
+      $student->displayName();
+    }
+}
+
+$d =  new DateTime();
+
+$stn = new Student('Nahid');
+
+$obj = new StudentManage;
+$obj->infoStd($stn);
