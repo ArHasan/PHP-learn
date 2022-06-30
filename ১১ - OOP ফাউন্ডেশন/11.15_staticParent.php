@@ -3,8 +3,8 @@
 class A{
     public static $name;
     static function sayHi(){
-        // $this->name = "Hasan";
-        self::$name = "Hasan";
+        // $this->name = "Hasan"; // this will not
+        echo  self::$name = "Hasan ";
         echo "Hi From A\n";
     }
 }
@@ -16,6 +16,9 @@ class B extends A{
         parent::sayHi();
     }
 }
-B::sayHi();
-// A::sayHi();
-echo B::$name;
+
+// $objA = new A();
+// $objA->sayHi();
+
+$B=B::sayHi();
+print_r($B);

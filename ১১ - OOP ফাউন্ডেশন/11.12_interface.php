@@ -21,8 +21,8 @@ class Human implements BaseHuman{
 }
 
 $cat = new Animal();
-echo $cat instanceof Human;
+echo $cat instanceof BaseAnimal;
 
 
-$h = new Human();
-echo $h instanceof BaseAnimal;
+// $h = new Human();
+// echo $h instanceof BaseAnimal;

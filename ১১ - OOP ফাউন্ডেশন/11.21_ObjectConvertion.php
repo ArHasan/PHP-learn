@@ -10,8 +10,10 @@ class Color{
 
     function __toString(){
         return "The color is {$this->color}";
+       
     }
 }
 $c = new Color('Red');
 echo serialize($c);
+echo PHP_EOL;
 echo ($c);

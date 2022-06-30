@@ -17,6 +17,9 @@ class DistrictCollection implements IteratorAggregate{
     function getIterator(){
         return new ArrayIterator($this->districts);
     }
+    function count(){
+        return count($this->districts);
+    }
 }
 
 $districts = new DistrictCollection;
@@ -24,8 +27,12 @@ $districts->add("Sylhet");
 $districts->add('Dhaka');
 $districts->add('Chittagong');
 
+echo count($districts);
+
 // $_districts = $districts->getDistricts();
 foreach($districts as $district){
     echo $district."\n";
 }
-print_r($districts);
+// print_r($districts);
+
+echo $districts->count();

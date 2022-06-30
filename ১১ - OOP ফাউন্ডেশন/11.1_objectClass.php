@@ -35,4 +35,5 @@ $h2->sayName();
 
 $cat = new Cat();
 
-$cat::SayHi(); 
+// $cat::SayHi(); 
+$cat->SayHi(); 

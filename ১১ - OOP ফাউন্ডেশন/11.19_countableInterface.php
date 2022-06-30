@@ -27,5 +27,5 @@ $districts = new DistrictCollection;
 $districts->add("Sylhet");
 $districts->add('Dhaka');
 $districts->add('Chittagong');
-
-echo count($districts);
+echo $districts->count();
+print_r($districts);
